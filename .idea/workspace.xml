@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="added changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/CartProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartProduct.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/ShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/ShoppingCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products/item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contex/CartContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contex/CartContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +51,34 @@
       <option name="presentableId" value="Default" />
       <updated>1673374129456</updated>
       <workItem from="1673374132478" duration="19000" />
-      <workItem from="1673377745732" duration="1040000" />
+      <workItem from="1673377745732" duration="5442000" />
     </task>
+    <task id="LOCAL-00001" summary="added changes">
+      <created>1673378846458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673378846458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added changes" />
   </component>
 </project>

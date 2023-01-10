@@ -40,11 +40,13 @@ section.cart-product div p {
     margin: 2px;
 }
 
-section.cart-product div button {
-    height: 20px;
-    width: 20px;
+.button-increment, .button-decrement {
+    font-size: 1.2em;
+    width: 1.2em;
+    height: 1.2em;
     border: transparent;
     border-radius: 50%;
     background-color: #cecece;
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }

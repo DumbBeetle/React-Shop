@@ -8,9 +8,9 @@ const CartProduct = (props) => {
       <img src={image} alt="" />
       <p>{title}</p>
       <div>
-        <button onClick={() => props.addButton(id)}>+</button>
+        <button className="button-increment" onClick={() => props.addButton(id)}>+</button>
         <p>{quantity}</p>
-        <button onClick={() => props.subtractButton(id)}>-</button>
+        <button className="button-decrement" onClick={() => props.subtractButton(id)}>-</button>
       </div>
       <p>
         {/* toFixed Prevent number like 200.70000000000002  from happening (9 * 22.3)*/}

@@ -65,6 +65,15 @@ export function CartProvider({ children }) {
       .toFixed(2);
   }
 
+  function getProductQuantity(id) {
+    const product = cartItems.find(product => product.id === id)
+    if (product == null){
+      return 0
+    }else {
+      return product.quantity
+    }
+  }
+
   function printCart() {
     console.log(cartItems);
   }
@@ -79,6 +88,7 @@ export function CartProvider({ children }) {
         decrementProduct,
         getTotalCount,
         getTotalPrice,
+        getProductQuantity,
         printCart,
       }}
     >

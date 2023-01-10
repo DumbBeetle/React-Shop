@@ -16,7 +16,6 @@ const ShoppingCart = () => {
       />
     );
   });
-
   return (
     <div className="cart-container">
       <div className="cart-icon">
@@ -24,10 +23,12 @@ const ShoppingCart = () => {
           <div className="cart-quantity">{count}</div>
         </div>
       </div>
+        {cartProducts.length !== 0 ?
       <div className="cart-product-window">
         {cartProducts}
         <p>Total: ${cartContext.getTotalPrice()}</p>
       </div>
+        : null}
     </div>
   );
 };
