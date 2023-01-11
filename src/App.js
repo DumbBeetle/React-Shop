@@ -4,7 +4,6 @@ import Products from "./components/Products/Products";
 import { useEffect, useState } from "react";
 import Loading from "./components/Loading/Loading";
 import { CartProvider } from "./contex/CartContext";
-import ShoppingCart from "./components/Cart/ShoppingCart";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
