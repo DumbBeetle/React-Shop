@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="added buttons to the item card">
+    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +60,8 @@
       <workItem from="1673447319309" duration="7050000" />
       <workItem from="1673510064236" duration="1971000" />
       <workItem from="1673525035321" duration="689000" />
-      <workItem from="1673529784208" duration="4485000" />
+      <workItem from="1673529784208" duration="5338000" />
+      <workItem from="1673569970362" duration="2198000" />
     </task>
     <task id="LOCAL-00001" summary="added changes">
       <created>1673378846458</created>
@@ -74,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673510140683</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="small changes">
+      <created>1673554239259</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673554239259</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added changes" />
     <MESSAGE value="added buttons to the item card" />
-    <option name="LAST_COMMIT_MESSAGE" value="added buttons to the item card" />
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
   </component>
 </project>
