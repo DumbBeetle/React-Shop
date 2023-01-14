@@ -24,16 +24,17 @@ const Item = (props) => {
                 <h6>${price}</h6>
                 <div className="buttons">
                     {quantity === 0 ? (
-                        <button onClick={() => cartContext.addItem(props.item)} className="add-to-cart">Add to
-                            Cart</button>) : null
+                        <button  onClick={() => cartContext.addItem(props.item)} className="add-to-cart">Add to
+                            Cart</button>) : <>
+                        <button className="button-increment"
+                                onClick={() => cartContext.incrementProduct(props.item.id)}>+
+                        </button>
+                        <p>In cart: {quantity}</p>
+                        <button className="button-decrement"
+                                onClick={() => cartContext.decrementProduct(props.item.id)}>-
+                        </button>
+                    </>
                     }
-                    {quantity >= 1 ? (
-                        <div>
-                            <button className="button-increment" onClick={() => cartContext.incrementProduct(props.item.id)}>+</button>
-                            <p>In cart: {quantity}</p>
-                            <button className="button-decrement" onClick={() => cartContext.decrementProduct(props.item.id)}>-</button>
-                        </div>
-                    ) : null}
                 </div>
             </div>
         </div>

@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="small changes">
-      <change afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
+    <list default="true" id="ae907278-ce55-421f-95b6-3be15914ccd1" name="Changes" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
