@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="added router" />
+    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="cas">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useProductFetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SingleProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/ShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/ShoppingCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contex/CartContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/CartContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +58,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Coding\HTML\goCode\react\react-shop\src\hooks" />
+      <recent name="C:\Users\amida\Coding\HTML\goCode\React\react-shop\src\components\Products" />
+      <recent name="C:\Users\amida\Coding\HTML\goCode\React\react-shop\src\components" />
+      <recent name="C:\Users\amida\Coding\HTML\goCode\React\react-shop\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +81,6 @@
       <workItem from="1673525035321" duration="689000" />
       <workItem from="1673529784208" duration="5338000" />
       <workItem from="1673569970362" duration="2198000" />
-      <workItem from="1673612858756" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="added changes">
       <created>1673378846458</created>
@@ -86,12 +110,12 @@
       <option name="project" value="LOCAL" />
       <updated>1673554239259</updated>
     </task>
-    <task id="LOCAL-00005" summary="added router">
-      <created>1673612895837</created>
+    <task id="LOCAL-00005" summary="added routes">
+      <created>1673702323627</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1673612895837</updated>
+      <updated>1673702323627</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -114,7 +138,7 @@
     <MESSAGE value="added changes" />
     <MESSAGE value="added buttons to the item card" />
     <MESSAGE value="small changes" />
-    <MESSAGE value="added router" />
-    <option name="LAST_COMMIT_MESSAGE" value="added router" />
+    <MESSAGE value="added routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added routes" />
   </component>
 </project>
