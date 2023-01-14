@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="added changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartProduct.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/ShoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/ShoppingCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contex/CartContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contex/CartContext.js" afterDir="false" />
-    </list>
+    <list default="true" id="ae907278-ce55-421f-95b6-3be15914ccd1" name="Changes" comment="remoed cart from app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2K95nn4eFR2afIunSZNo1zZ58u0" />
+  <component name="ProjectId" id="2KAXiVnTB2cDp2Xvl85CSloEQfy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,20 +42,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="" />
-      <created>1673374129456</created>
+      <changelist id="ae907278-ce55-421f-95b6-3be15914ccd1" name="Changes" comment="" />
+      <created>1673418494253</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1673374129456</updated>
-      <workItem from="1673374132478" duration="19000" />
-      <workItem from="1673377745732" duration="5442000" />
+      <updated>1673418494253</updated>
+      <workItem from="1673418495531" duration="3137000" />
     </task>
-    <task id="LOCAL-00001" summary="added changes">
-      <created>1673378846458</created>
+    <task id="LOCAL-00001" summary="remoed cart from app">
+      <created>1673438023134</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1673378846458</updated>
+      <updated>1673438023134</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -71,14 +67,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="testing" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added changes" />
+    <MESSAGE value="remoed cart from app" />
+    <option name="LAST_COMMIT_MESSAGE" value="remoed cart from app" />
   </component>
 </project>
