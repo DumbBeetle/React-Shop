@@ -12,7 +12,6 @@ const Loading = () => {
                 </div>
             </div>
         </section>
-
     );
 };
 
