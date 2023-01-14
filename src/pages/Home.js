@@ -2,36 +2,21 @@ import React, {useEffect, useState} from 'react';
 import Nav from "../components/Nav/Nav";
 import Products from "../components/Products/Products";
 import Loading from "../components/Loading/Loading";
-import {CartProvider, useCart} from "../contex/CartContext";
+import {CartProvider} from "../contex/CartContext";
+import {useFetchProducts} from "../components/Products/useProductFetch";
+import {Route} from "react-router-dom";
+import SingleProduct from "./SingleProduct";
 
 const Home = () => {
-    const [isLoading, setIsLoading] = useState(true);
-    const [items, setItems] = useState("");
-    const [sort, setSort] = useState("Featured");
-    const [filter, setFilter] = useState("all products");
-
-    useEffect(() => {
-        const fetchProducts = async () => {
-            const url = "https://fakestoreapi.com/products";
-            const data = (await fetch(url)).json();
-            setItems(await data);
-            console.log("Getting Data");
-        };
-        fetchProducts().then(() => setIsLoading(false));
-    }, []);
-
+    const {isLoading, products, filter, setFilter} = useFetchProducts();
     if (isLoading) {
-        return (
-            <div className="App">
-                <Loading/>
-            </div>
-        );
+        return <Loading/>
     }
     return (
         <div>
             <CartProvider>
-                <Nav setFilter={setFilter} passItems={items}/>
-                <Products passFilter={filter} passItems={items}/>
+                <Nav setFilter={setFilter} passItems={products}/>
+                <Products passFilter={filter} passItems={products}/>
             </CartProvider>
         </div>
     );

@@ -1,10 +1,10 @@
 import React from "react";
 import "./ShoppingCart.css";
-import { useCart } from "../../contex/CartContext";
+import {useCartContext} from "../../contex/CartContext";
 import CartProduct from "./CartProduct";
 
 const ShoppingCart = () => {
-  const cartContext = useCart();
+  const cartContext = useCartContext();
   const count = cartContext.getTotalCount();
   const cartProducts = cartContext.cartItems.map((item) => {
     return (
