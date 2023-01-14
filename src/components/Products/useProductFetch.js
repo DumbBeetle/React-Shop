@@ -1,4 +1,6 @@
 import {useEffect, useState} from 'react';
+import NotFound from "../../pages/NotFound";
+import Home from "../../pages/Home";
 
 function useFetchProducts (){
     const [isLoading, setIsLoading] = useState(true);
@@ -19,6 +21,7 @@ function useFetchProducts (){
     return {isLoading, products, filter, setFilter}
 }
 
+//TODO: Add catch when inserting fake id
 function useFetchSingleProduct(id){
     const [isLoading, setIsLoading] = useState(true);
     const [product, setProduct] = useState(null);
@@ -29,7 +32,13 @@ function useFetchSingleProduct(id){
             const data = (await fetch(url)).json();
             setProduct(await data);
         };
-        fetchProducts().then(() => setIsLoading(false));
+        try {
+            fetchProducts().then(() => setIsLoading(false));
+        } catch (e) {
+            console.log(e)
+            return <Home />
+        }
+
     }, [])
 
     return {isLoading, product}

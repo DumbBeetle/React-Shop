@@ -4,8 +4,7 @@ import Products from "../components/Products/Products";
 import Loading from "../components/Loading/Loading";
 import {CartProvider} from "../contex/CartContext";
 import {useFetchProducts} from "../components/Products/useProductFetch";
-import {Route} from "react-router-dom";
-import SingleProduct from "./SingleProduct";
+
 
 const Home = () => {
     const {isLoading, products, filter, setFilter} = useFetchProducts();
