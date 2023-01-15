@@ -4,7 +4,7 @@ import {Route, Routes} from "react-router-dom";
 import Home from "./views/Home";
 import About from "./views/About";
 import NotFound from "./views/NotFound";
-import SingleProduct from "./views/SingleProduct";
+import SingleProduct from "./views/SingleProduct/SingleProduct";
 import React from "react";
 
 function App() {
