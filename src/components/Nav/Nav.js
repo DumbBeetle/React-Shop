@@ -10,7 +10,7 @@ const Nav = (props) => {
       <h1>Jackets</h1>
       <div className="sort">
         <FilterBy setFilter={props.setFilter} passItems={props.passItems} />
-        <SortBy />
+        <SortBy setSort={props.setSort} setFilter={props.setFilter}/>
         <ShoppingCart />
       </div>
     </nav>

@@ -7,15 +7,15 @@ import {useFetchProducts} from "../hooks/useProductFetch";
 
 
 const Home = () => {
-    const {isLoading, products, filter, setFilter} = useFetchProducts();
+    const {isLoading, products, filter, setFilter, sort, setSort} = useFetchProducts();
     if (isLoading) {
         return <Loading/>
     }
     return (
         <div>
             <CartProvider>
-                <Nav setFilter={setFilter} passItems={products}/>
-                <Products passFilter={filter} passItems={products}/>
+                <Nav setFilter={setFilter} passItems={products} setSort={setSort}/>
+                <Products passFilter={filter} passItems={products} passSort={sort}/>
             </CartProvider>
         </div>
     );
