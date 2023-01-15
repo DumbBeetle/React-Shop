@@ -15,8 +15,7 @@ function useFetchProducts() {
         };
         fetchProducts().then(() => setIsLoading(false));
     }, [])
-
-    return {isLoading, products, filter, setFilter}
+    return {isLoading, products, filter, setFilter, sort, setSort}
 }
 function useFetchSingleProduct(id) {
     const [isLoading, setIsLoading] = useState(true);

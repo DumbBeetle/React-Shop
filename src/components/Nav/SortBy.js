@@ -1,6 +1,6 @@
 import React from "react";
 
-const SortBy = () => {
+const SortBy = (props) => {
 
   const optionsNames = [
     "Featured",
@@ -9,18 +9,17 @@ const SortBy = () => {
     "Alphabetically, Z-A",
     "Price, low to high",
     "Price, high to low",
-    "Date, new to old",
-    "Date, old to new",
   ];
-  const options = optionsNames.map((op, index) => (
-    <option value="/" key={index}>
-      {op}
+  optionsNames.push("Rating, low to high", "Rating, high to low")
+  const options = optionsNames.map((value, index) => (
+    <option value={value} key={index}>
+      {value}
     </option>
   ));
   return (
     <div className="collection-sort">
       <label htmlFor="">Sort by:</label>
-      <select>{options}</select>
+      <select onChange={(event) => props.setSort(event.target.value)}>{options}</select>
     </div>
   );
 };
