@@ -6,17 +6,20 @@ import About from "./views/About";
 import NotFound from "./views/NotFound";
 import SingleProduct from "./views/SingleProduct/SingleProduct";
 import React from "react";
+import {CartProvider} from "./hooks/CartContext";
 
 function App() {
 
     return (
         <div className="App">
-            <Routes>
-                <Route exact path="/" element={<Home/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="products/:id" element={<SingleProduct/>}/>
-                <Route path="/*" element={<NotFound/>}/>
-            </Routes>
+            <CartProvider>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="products/:id" element={<SingleProduct/>}/>
+                    <Route path="about" element={<About/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                </Routes>
+            </CartProvider>
         </div>
     );
 }

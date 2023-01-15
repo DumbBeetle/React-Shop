@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fddf3041-0e27-4995-9e3f-1cff5221a396" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/SortBy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/SortBy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
+    <list default="true" id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="finished adding sort">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useProductFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useProductFetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.js" afterDir="false" />
     </list>
@@ -43,20 +40,53 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fddf3041-0e27-4995-9e3f-1cff5221a396" name="Changes" comment="" />
+      <changelist id="13c8a5d8-b284-4aa1-9d5b-ace31409604b" name="Changes" comment="finished adding sort" />
       <created>1673799594449</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673799594449</updated>
       <workItem from="1673799597767" duration="1684000" />
       <workItem from="1673804338576" duration="5998000" />
+      <workItem from="1673810959757" duration="2303000" />
     </task>
+    <task id="LOCAL-00001" summary="finished adding sort">
+      <created>1673810898639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673810898639</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished adding sort">
+      <created>1673810906061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673810906061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished adding sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished adding sort" />
   </component>
 </project>
