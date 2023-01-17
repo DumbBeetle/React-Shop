@@ -1,11 +1,12 @@
 import Item from "./item";
 import "./Products.css";
+import ImgMediaCard from "../Material-UI/ImgMediaCard";
 
 
 // Get Products data
 function getProducts(items, filter){
   return items.map((product) => {
-        return <Item key={product.id} item={product}/>;
+        return <ImgMediaCard key={product.id} item={product}/>;
       }).filter((value) => {
         // Filter Products based on chosen Category
         return filter === "all products"
