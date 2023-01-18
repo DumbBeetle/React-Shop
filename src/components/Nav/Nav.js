@@ -3,6 +3,7 @@ import FilterBy from "./FilterBy";
 import SortBy from "./SortBy";
 import "./Nav.css";
 import ShoppingCart from "../Cart/ShoppingCart";
+import {CartDrawer} from "../Material-UI/CartDrawer";
 
 const Nav = (props) => {
   return (
@@ -11,7 +12,7 @@ const Nav = (props) => {
       <div className="sort">
         <FilterBy setFilter={props.setFilter} passItems={props.passItems} />
         <SortBy setSort={props.setSort} setFilter={props.setFilter}/>
-        <ShoppingCart />
+        <CartDrawer />
       </div>
     </nav>
   );

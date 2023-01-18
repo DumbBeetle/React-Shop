@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f499bbe3-306c-413f-94ee-7c8e0ac2431e" name="Changes" comment="added mui branch">
+      <change afterPath="$PROJECT_DIR$/src/components/Material-UI/CartDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Material-UI/CustomTheme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Material-UI/RoundButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -87,7 +88,7 @@
       <workItem from="1673804338576" duration="5998000" />
       <workItem from="1673810959757" duration="2303000" />
       <workItem from="1673909250753" duration="14805000" />
-      <workItem from="1674025478185" duration="3031000" />
+      <workItem from="1674025478185" duration="7395000" />
     </task>
     <task id="LOCAL-00001" summary="finished adding sort">
       <created>1673810898639</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673931062637</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added mui branch">
+      <created>1674028583321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674028583322</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
