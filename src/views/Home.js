@@ -1,19 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Nav from "../components/Nav/Nav";
 import Products from "../components/Products/Products";
 import Loading from "../components/Loading/Loading";
-import {useFetchProducts} from "../hooks/useProductFetch";
-
+import useFetchProducts from "../hooks/useProductFetch";
 
 const Home = () => {
-    const {isLoading, products, filter, setFilter, sort, setSort} = useFetchProducts();
-    if (isLoading) {
-        return <Loading/>
-    }
+
+    const {data, error, isLoading, sort, setSort, filter, setFilter} = useFetchProducts();
+
     return (
         <div>
-            <Nav setFilter={setFilter} passItems={products} setSort={setSort}/>
-            <Products passFilter={filter} passItems={products} passSort={sort}/>
+            {data ?
+                (<>
+                    <Nav setFilter={setFilter} passItems={data} setSort={setSort}/>
+                    <Products passFilter={filter} passItems={data} passSort={sort}/>
+                </>) :
+                <Loading/>
+            }
         </div>
     );
 };

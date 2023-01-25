@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f499bbe3-306c-413f-94ee-7c8e0ac2431e" name="Changes" comment="added mui branch">
-      <change afterPath="$PROJECT_DIR$/src/components/Material-UI/CartDrawer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.js" afterDir="false" />
+    <list default="true" id="f499bbe3-306c-413f-94ee-7c8e0ac2431e" name="Changes" comment="added mui drawer">
+      <change afterPath="$PROJECT_DIR$/src/components/Material-UI/DrawerTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartProduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material-UI/CartDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material-UI/CartDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Material-UI/ImgMediaCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useProductFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useProductFetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/SingleProduct/SingleProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SingleProduct/SingleProduct.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -89,6 +101,10 @@
       <workItem from="1673810959757" duration="2303000" />
       <workItem from="1673909250753" duration="14805000" />
       <workItem from="1674025478185" duration="7395000" />
+      <workItem from="1674045969143" duration="51000" />
+      <workItem from="1674285766141" duration="7352000" />
+      <workItem from="1674312125970" duration="3844000" />
+      <workItem from="1674457920538" duration="3684000" />
     </task>
     <task id="LOCAL-00001" summary="finished adding sort">
       <created>1673810898639</created>
@@ -118,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674028583322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added mui drawer">
+      <created>1674046004236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674046004236</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished adding sort" />
     <MESSAGE value="added mui branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mui branch" />
+    <MESSAGE value="added mui drawer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mui drawer" />
   </component>
 </project>

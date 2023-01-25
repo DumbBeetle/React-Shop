@@ -2,7 +2,6 @@ import React from "react";
 import FilterBy from "./FilterBy";
 import SortBy from "./SortBy";
 import "./Nav.css";
-import ShoppingCart from "../Cart/ShoppingCart";
 import {CartDrawer} from "../Material-UI/CartDrawer";
 
 const Nav = (props) => {

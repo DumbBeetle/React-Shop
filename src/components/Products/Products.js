@@ -1,4 +1,3 @@
-import Item from "./item";
 import "./Products.css";
 import ImgMediaCard from "../Material-UI/ImgMediaCard";
 

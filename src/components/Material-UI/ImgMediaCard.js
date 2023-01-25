@@ -3,6 +3,7 @@ import {Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typog
 import '@fontsource/roboto/400.css';
 import {useCartContext} from "../../hooks/CartContext";
 import "./ImgMediaCard.css"
+import {Link} from "react-router-dom";
 
 export default function ImgMediaCard(props) {
     const cartContext = useCartContext();
@@ -12,15 +13,21 @@ export default function ImgMediaCard(props) {
     const quantity = cartContext.getProductQuantity(id);
     return (
 
-        <Card className="mui-card" sx={{maxWidth: 350}}>
-            <CardActionArea>
-                <CardMedia
-                    component="img"
-                    alt={title}
-                    image={image}
-                    height="350"
-                    sx={{objectFit: "contain"}}
-                />
+        <Card className="mui-card"
+              sx={{
+                  maxWidth: 350,
+                  boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.4), 0px 0px 4px 0px rgba(0, 0, 0, 0.4)"
+        }}>
+            <CardActionArea sx={{padding: "10px"}}>
+                <Link to={`/products/${id}`}>
+                    <CardMedia
+                        component="img"
+                        alt={title}
+                        image={image}
+                        height="350"
+                        sx={{objectFit: "contain"}}
+                    />
+                </Link>
             </CardActionArea>
             <div>
                 <CardContent>
@@ -31,9 +38,9 @@ export default function ImgMediaCard(props) {
                         ${price}
                     </Typography>
                 </CardContent>
-                <CardActions sx={{justifyContent: "center"}}>
+                <CardActions sx={{justifyContent: "center", height: "60px"}}>
                     {quantity === 0 ? (
-                            <Button size="medium" variant="contained" onClick={() => cartContext.addItem(props.item)}>Add to
+                            <Button className="add-to-button" size="medium" variant="contained" onClick={() => cartContext.addItem(props.item)}>Add to
                                 Cart</Button>) :
                         <>
                             <Button className="round-button" variant="contained"
@@ -43,7 +50,6 @@ export default function ImgMediaCard(props) {
                                     onClick={() => cartContext.decrementProduct(props.item.id)}>-</Button>
                         </>
                     }
-
                 </CardActions>
             </div>
         </Card>

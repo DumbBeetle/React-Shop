@@ -1,21 +1,20 @@
 import React from 'react';
-import {useFetchSingleProduct} from "../../hooks/useProductFetch";
 import Loading from "../../components/Loading/Loading";
 import {useParams} from "react-router-dom";
 import NotFound from "../NotFound";
 import "./SingleProduct.css"
+import useFetchProducts from "../../hooks/useProductFetch";
 
 const SingleProduct = () => {
     const {id} = useParams();
-    const {isLoading, product, error} = useFetchSingleProduct(id)
-
+    const {data, error, isLoading, sort, setSort, filter, setFilter} = useFetchProducts(id)
     if (error) {
         return <NotFound/>
     }
-    if (isLoading) {
-        return <Loading/>
+    if (isLoading){
+      return  <Loading />
     }
-    const {title, price, description, category, image, rating: {rate, count}} = product;
+    const {title, price, description, category, image, rating: {rate, count}} = data;
     return (
         <div className="product-page">
             <div className="product-image">
